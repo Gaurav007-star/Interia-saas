@@ -25,7 +25,7 @@ export const POST = async (request) => {
         JSON.stringify({
           success: true,
           message: "User register successfully",
-          user:CreateUser[0]
+          user:CreateUser[0].User
         }),
         { status: 200 }
       );
